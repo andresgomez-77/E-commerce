@@ -1,0 +1,162 @@
+{
+  "usuarioAdmin": [
+    {
+      "nombre": "administrador",
+      "email": "admin@admin.com",
+      "password": "admin1234",
+      "id": 1
+    },
+    {
+      "id": "22a03b55-7dcc-4af8-8033-371987c92374",
+      "nombre": "felipe",
+      "email": "andres07@hotmail.com",
+      "password": "admin1234"
+    }
+  ],
+  "secciones": [
+    {
+      "link": "pvc.jpeg",
+      "categoria": "construccion",
+      "nombre": "Tubo 3x6m Ventilación",
+      "precio": "59.900",
+      "descripcion": "hola",
+      "id": 1
+    },
+    {
+      "link": "hierro.jpeg",
+      "categoria": "construccion",
+      "nombre": "Chipa 1/4Pulg 1K",
+      "precio": "4.900",
+      "descripcion": "hola",
+      "id": 2
+    },
+    {
+      "link": "ladrillo.jpeg",
+      "categoria": "construccion",
+      "nombre": "Ladrillo Estructural R. Rojo 24x12x6.8cm",
+      "precio": "3.157",
+      "descripcion": "hola",
+      "id": 3
+    },
+    {
+      "link": "teja.jpeg",
+      "categoria": "construccion",
+      "nombre": "Teja Roja #8 Trapezoidal Polipropileno",
+      "precio": "39.800",
+      "descripcion": "hola",
+      "id": 4
+    },
+    {
+      "link": "grava.jpg",
+      "categoria": "construccion",
+      "nombre": "Gravilla 40kg",
+      "precio": "18.400",
+      "descripcion": "hola",
+      "id": 5
+    },
+    {
+      "link": "Cemento_gris.png",
+      "categoria": "construccion",
+      "nombre": "Bulto Cemento Gris CEMEX X 50 KG",
+      "precio": "24.500",
+      "descripcion": "hola",
+      "id": 6
+    },
+    {
+      "link": "jacuzzi.jpeg",
+      "categoria": "hogar",
+      "nombre": "Tina Hidromasaje Americana Plus Derecha",
+      "precio": "4.854.900",
+      "descripcion": "hola",
+      "id": 7
+    },
+    {
+      "link": "lavamanos.jpeg",
+      "categoria": "hogar",
+      "nombre": "Lavamanos Ovalado de Sobreponer Fluid",
+      "precio": "699.900",
+      "descripcion": "hola",
+      "id": 8
+    },
+    {
+      "nombre": "Sanitario Laguna 4.8 Litros Única Descarga Blanco",
+      "precio": "219.900",
+      "categoria": "hogar",
+      "link": "sanitario.jpeg",
+      "descripcion": "hola",
+      "id": 9
+    },
+    {
+      "link": "griferia_baño.jpeg",
+      "categoria": "hogar",
+      "nombre": "Grifería Agua Fria Acero Inox Lavamanos Baja",
+      "precio": "45.900",
+      "descripcion": "hola",
+      "id": 10
+    },
+    {
+      "link": "griferia_ducha.jpeg",
+      "categoria": "hogar",
+      "nombre": "Regadera Cuadrato 8 Pulgadas Plateada",
+      "precio": "173.900",
+      "descripcion": "hola",
+      "id": 11
+    },
+    {
+      "link": "calentardor.jpeg",
+      "categoria": "hogar",
+      "nombre": "Calentador 10 Litros Tiro Forzado A Gas Natural",
+      "precio": "1.746.900",
+      "descripcion": "hola",
+      "id": 12
+    },
+    {
+      "link": "pintura.jpeg",
+      "categoria": "acabados",
+      "nombre": "Pintura para Interior y Exterior Blanco 1 Galón",
+      "precio": "78.900",
+      "descripcion": "hola",
+      "id": 13
+    },
+    {
+      "link": "ceramica.jpeg",
+      "categoria": "acabados",
+      "nombre": "Pared Cerámica Roma Azul 25x35cm Caja 2 m2",
+      "precio": "57.600",
+      "descripcion": "hola",
+      "id": 14
+    },
+    {
+      "link": "accesoriosPintura.jpeg",
+      "categoria": "acabados",
+      "nombre": "Rodillo Recargable para Pintar",
+      "precio": "174.600",
+      "descripcion": "hola",
+      "id": 15
+    },
+    {
+      "link": "puerta.jpeg",
+      "categoria": "acabados",
+      "nombre": "Puerta Prepintada Sinfonía 60x200cm Interdoors",
+      "precio": "170.900",
+      "descripcion": "hola",
+      "id": 16
+    },
+    {
+      "link": "ventana.jpeg",
+      "categoria": "acabados",
+      "nombre": "Ventana 100x100cm PVC Altavista",
+      "precio": "332.900",
+      "descripcion": "hola",
+      "id": 17
+    },
+    {
+      "link": "pegante.jpeg",
+      "categoria": "acabados",
+      "nombre": "Adhesivo Sellador Color Blanco 290 ml",
+      "precio": "36.900",
+      "descripcion": "hola",
+      "id": 18
+    }
+  ]
+}

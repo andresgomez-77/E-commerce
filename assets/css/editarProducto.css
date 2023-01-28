@@ -1,0 +1,46 @@
+.cuadrado{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.seccion_titulo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    flex-direction: column;
+    margin: 10px 0 0 0;
+    border: 1px solid black; 
+}
+.titulo{
+    padding: 0.8rem 5px;
+}
+.login__box-input{
+    margin: 5px;
+}
+.login__botao{
+    margin: 5px auto;
+}
+.input-mensaje-error {
+    display: none;
+  }
+.input-container--invalid .input-mensaje-error, .form__invalid .login__error {
+    display: block;
+    color: red;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+.formcontato__input{
+    background-color:#d2e3e7;
+}
+.volver{
+    padding: 1rem;
+    margin-top: 120px;
+    cursor: pointer;
+}
+.volver a:visited{
+    color: blue;
+}

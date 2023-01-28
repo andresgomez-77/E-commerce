@@ -1,0 +1,174 @@
+@import url(style.css);
+
+/*pie de pagina*/
+footer {
+  margin-top: 40px;
+  background-color: var(--color__bar);
+}
+.contacto {
+  align-items: center;
+  background-color: var(--color__bar);
+  display: flex;
+  flex-direction: column;
+  height: 365px;
+  justify-content: space-between;
+  padding: 34px 0;
+  width: 100%;
+}
+.contacto__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 0 1.5rem;
+}
+.referencia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  margin: 20px 0 0 0;
+}
+
+.referencia img {
+  width: 60px;
+  height: 40px;
+}
+
+.referencia p {
+  font-size: 26px;
+  font-weight: bolder;
+  color: #2a7ae4;
+  margin-top: 5px;
+  margin-left: 6px;
+}
+
+.links-utiles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 20px;
+  width: 100%;
+}
+.links-utiles a {
+  color: black;
+  font-weight: normal;
+}
+section.formcontato {
+  align-items: center;
+  background-color: var(--color__bar);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 0;
+  width: 100%;
+}
+.formcontato__contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid var(--color__bar);
+  box-shadow: 1px 1px 15px black;
+}
+.formcontato__title {
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+.formcontato__text {
+  display: flex;
+  background-color: var(--color__bar);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
+}
+.formcontato__marcotitle {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.formcontato__subtext {
+  text-align: center;
+  font-size: 2rem;
+}
+.formcontato__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formcontato__form-input {
+  position: relative;
+}
+:focus {
+  outline: none;
+}
+.col-3 {
+  position: relative;
+  float: left;
+  width: 90%;
+  margin: 4px 3%;
+}
+.formcontato__label {
+  display: flex;
+  font-weight: bold;
+  bottom: 4px;
+}
+
+input[type="text"] input[type="email"] textarea {
+  font: 15px/24px "Lato", Arial, sans-serif;
+  color: #333;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+.formcontato__input {
+  border: 0;
+  width: 95%;
+  padding: 7px 0;
+  border-bottom: 1px solid #ccc;
+}
+.formcontato__input ~ .focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 4px;
+  background-color: #a107cf;
+  transition: 0.4s;
+}
+.formcontato__input ~ .focus-border:nth-child(4) {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  width: 0;
+  height: 4px;
+  background-color: #f277cf;
+  transition: 0.4s;
+}
+.formcontato__input:focus ~ .focus-border {
+  width: 100%;
+  transition: 0.4s;
+  left: 0;
+}
+.formcontato__botao {
+  width: 90%;
+  border-radius: 2rem;
+  background-color: var(--color__fondo);
+}
+.formcontato__botao:hover {
+  background-color: var(--color__bar);
+}
+.formcontato__botao:active {
+  background-color: #0a485f;
+  color: var(--color__fondo);
+}

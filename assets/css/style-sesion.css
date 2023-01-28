@@ -1,0 +1,114 @@
+.login{
+    float: left;
+    width: 17.188rem;
+    margin: 4px 3%;
+    position: relative;
+    text-align: center;
+}
+.cuadrado{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.form-sesion{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    flex-direction: column;
+    margin: 150px 0 0 0;
+}
+.form-control{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    flex-direction: column;
+    margin: 50px 0;   
+    
+}
+.login__box-input{
+    position: relative;
+}
+.login__label {
+    display: flex;
+    font-weight: bold;
+    bottom: 4px;
+    position: relative;
+    
+  }
+.login__input{
+    border: 0;
+    width: 17.188rem;
+    padding: 7px 4px;
+    background: #d2e3e7;
+    border-bottom: 1px solid #ccc;
+}
+.login__input ~ .login-border{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 4px;
+    background-color: #a107cf;
+    transition: 0.4s;
+}
+.login__input:focus ~ .login-border{
+    width: 100%;
+    transition: 0.4s;
+    left: 0;
+}
+.login__botao {
+    width: 90%;
+    margin: auto;
+    border-radius: 2rem;
+    background-color: #fff;
+}
+.login__botao:hover {
+    background-color: var(--color__bar);
+}
+.login__botao:active {
+    background-color: #0a485f;
+    color: var(--color__fondo);
+}
+
+.login__register{
+    display: flex;
+    width: 17.188rem;
+    justify-content: space-around;
+}
+.modal__open , .modal2__open { 
+    margin: 1em auto; 
+    display: block; 
+    width: 200px; 
+    background: #ccc; 
+    text-align: center; 
+    text-decoration: none; 
+    color: black; 
+    padding: 10px; 
+    text-shadow: 0 1px 0 #fff; 
+    border: 1px solid rgba(0,0,0,0.1); 
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
+}
+.login__mensaje-exito{
+    display: none;
+}
+.lucky{
+    display: block;
+    color: red;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+.login__mensaje-fallido {  
+    display: none;
+}
+.fail {
+    display: block;
+    color: red;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    font-weight: bold;
+}
